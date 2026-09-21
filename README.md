@@ -1,5 +1,7 @@
 # AI Compute Optimizer
 
+**English** | [Русский](README.ru.md)
+
 Research MVP for the hypothesis: an external decision/optimization layer can route heterogeneous AI workload across models with different cost/quality profiles and reduce theoretical inference cost while maintaining a target quality level.
 
 ## Scope of this first implementation
