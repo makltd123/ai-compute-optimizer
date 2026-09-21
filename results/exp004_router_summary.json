@@ -1,0 +1,10 @@
+[
+  {
+    "strategy": "cheap",
+    "quality": 0.8841463414634146,
+    "cost": 0.05062515,
+    "average_cost_per_task": 0.0003086899390243902,
+    "latency": 3.166917220733012,
+    "tasks": 164
+  }
+]

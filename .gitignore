@@ -1,0 +1,13 @@
+.env
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.mimocode/
+results/*.jsonl
+results/*.json
+!results/*_summary.json
+results/*.csv
+plots/*
+.venv/
+*.zip

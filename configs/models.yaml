@@ -1,0 +1,20 @@
+models:
+  - name: cheap
+    provider: mistral
+    model_id: mistral-small-latest
+    canonical_family: Mistral Small 4
+    enabled: true
+  - name: medium
+    provider: mistral
+    model_id: mistral-large-latest
+    canonical_family: Mistral Large 3
+    enabled: true
+  - name: strong
+    provider: mistral
+    model_id: mistral-medium-latest
+    canonical_family: Mistral Medium 3.5
+    enabled: true
+
+# Aliases are intentionally resolved at experiment time via /v1/models and recorded
+# in each request's response metadata. Pin versioned IDs in a new experiment when
+# strict long-term reproducibility is required and the account exposes them.

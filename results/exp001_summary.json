@@ -1,0 +1,26 @@
+[
+  {
+    "strategy": "cheap",
+    "quality": 0.95,
+    "cost": 0.01689405,
+    "average_cost_per_task": 0.0002815675,
+    "latency": 3.0636923016666513,
+    "tasks": 60
+  },
+  {
+    "strategy": "medium",
+    "quality": 0.5833333333333334,
+    "cost": 0.025655,
+    "average_cost_per_task": 0.00042758333333333336,
+    "latency": 7.658503517611696,
+    "tasks": 60
+  },
+  {
+    "strategy": "strong",
+    "quality": 0.95,
+    "cost": 0.226776,
+    "average_cost_per_task": 0.0037796,
+    "latency": 5.49148967499998,
+    "tasks": 60
+  }
+]

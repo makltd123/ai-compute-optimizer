@@ -1,0 +1,6 @@
+mistralai>=1.8.0
+PyYAML>=6.0
+pandas>=2.0
+matplotlib>=3.7
+tenacity>=8.2
+pytest>=8.0

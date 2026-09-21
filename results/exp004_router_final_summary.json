@@ -1,0 +1,14 @@
+{
+  "experiment": "exp004_router_final",
+  "tasks": 164,
+  "target_quality": 0.9,
+  "predicted_cost": 0.057344549999999994,
+  "actual_quality": 0.8719512195121951,
+  "actual_cost": 0.0547301,
+  "routing": {
+    "cheap": 156,
+    "medium": 8
+  },
+  "historical_data_used": false,
+  "training_data_used": false
+}

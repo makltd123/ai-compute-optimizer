@@ -1,0 +1,18 @@
+experiments:
+  exp001_smoke_test:
+    task_limit: 164
+    generation:
+      temperature: 0
+      max_tokens: 512
+    retry:
+      max_attempts: 4
+      min_wait_seconds: 1
+      max_wait_seconds: 20
+  exp002_baselines:
+    task_limit: 164
+  exp003_oracle:
+    task_limit: 164
+  exp004_router:
+    task_limit: 164
+  exp005_budget:
+    task_limit: 164

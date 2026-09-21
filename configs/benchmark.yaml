@@ -1,0 +1,11 @@
+benchmark:
+  name: humaneval
+  dataset: openai/human-eval
+  split: test
+  task_limit: 60
+  language: python
+  prompt_template: |
+    Complete the following Python function. Return only the code needed to complete it.
+
+    {prompt}
+  evaluator: python_unit_tests
